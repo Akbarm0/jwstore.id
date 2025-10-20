@@ -1,0 +1,14 @@
+/* style.css */ body { margin: 0; font-family: 'Comic Neue', sans-serif; background: #1a001a; color: #eee; }
+
+header { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background: #330033; box-shadow: 0 0 20px #ff00ff; } .logo { font-weight: bold; font-size: 2em; color: #ff66ff; text-shadow: 0 0 10px #ff66ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; } nav a { margin: 0 10px; text-decoration: none; color: #ff99ff; text-shadow: 0 0 5px #ff66ff; transition: 0.3s; } nav a:hover { color: #ffffff; text-shadow: 0 0 15px #ff00ff, 0 0 25px #ff66ff; }
+
+.hero { text-align: center; padding: 50px; background: linear-gradient(45deg, #330033, #660066, #990099); color: #fff; text-shadow: 0 0 10px #ff99ff; } .hero button { padding: 10px 20px; font-size: 1em; background: #ff00ff; border: none; color: #fff; cursor: pointer; box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff66ff; transition: 0.3s; } .hero button:hover { box-shadow: 0 0 20px #ff00ff, 0 0 40px #ff66ff; }
+
+.store-status { text-align: center; margin: 20px 0; font-size: 1.2em; padding: 10px; border-radius: 10px; color: #fff; text-shadow: 0 0 10px #ff99ff; } .store-status.open { background: #00ff88; color: #000; text-shadow: 0 0 10px #00ff88; } .store-status.closed { background: #ff4444; color: #000; text-shadow: 0 0 10px #ff4444; }
+
+footer { text-align: center; padding: 20px; background: #330033; color: #ff99ff; text-shadow: 0 0 5px #ff66ff; }
+
+.signature { font-family: 'Comic Neue', sans-serif; font-size: 1.5em; color: #ff66ff; text-shadow: 0 0 10px #ff66ff, 0 0 20px #ff00ff; animation: draw 3s linear forwards; } @keyframes draw { 0% {opacity: 0; transform: translateX(-50px);} 100% {opacity: 1; transform: translateX(0);} }
+
+.product-item { background: #440044; margin: 20px; padding: 15px; border-radius: 15px; box-shadow: 0 0 15px #ff00ff; } .product-item button { margin-top: 10px; padding: 5px 10px; background: #ff00ff; border: none; color: #fff; cursor: pointer; box-shadow: 0 0 5px #ff66ff; } .product-item button:hover { box-shadow: 0 0 15px #ff00ff; }
+
